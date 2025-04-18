@@ -1,0 +1,33 @@
+h1 {
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  border: 1px solid #28a745;
+  background-color: transparent;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  background-color: #28a745;
+}
